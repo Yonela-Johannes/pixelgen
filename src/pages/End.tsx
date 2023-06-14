@@ -1,5 +1,3 @@
-import pixel from '../assets/pixel.png'
-
 const End = () => {
   return (
     <div className="md:relative flex flex-col md:flex-row items-end justify-end md:items-center text-white bg-primary h-screen w-full">

@@ -1,6 +1,3 @@
-import nkosinati from '../assets/nkosinati.png';
-import unnamed from '../assets/unnamed.png';
-import bravo from '../assets/bravo.png'
 import image1 from '../assets/image1.png';
 import image2 from '../assets/image2.png';
 
