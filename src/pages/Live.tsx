@@ -4,12 +4,11 @@ import image7 from '../assets/image7.png'
 
 const Live = () => {
   return (
-    <div className="md:relative flex flex-col md:py-40 md:flex-row-reverse items-center bg-primary min-h-screen md:h-screen">
-      <div className="md:absolute bottom-0 right-0 flex flex-col self-end items-end justify-end md:rounded-tl-[150px] px-10 py-20 bg-white w-full md:w-[600px]">
+    <div className="xl:relative flex flex-col md:py-40 md:flex-row-reverse items-center bg-primary min-h-screen md:h-screen">
+      <div className="xl:absolute bottom-0 right-0 flex flex-col self-end items-end justify-end xl:rounded-tl-[150px] px-10 py-10 bg-white lg:bg-primary xl:bg-white text-primary lg:text-white xl:text-primary w-full xl:w-[600px]">
         <div className="mt-10">
-          <div className="flex md:items-center flex-col mb- md:w-[480px]">
-          <p className="relative text-4xl md:text-8xl mb-3 text-primary">Live Concerts
-            <div className="absolute h-[4px] md:h-[8px] w-[55px] md:w-[170px] top-2 -left-6 md:top-1 md:-left-16 bg-primary -rotate-45 border rounded-full"></div>
+          <div className="flex md:items-center lg:w-[600px] flex-col xl:w-[480px]">
+          <p className="w-full text-4xl md:text-1xl lg:text-3xl xl:text-5xl 2xl:text-8xl mb-3">Live Concerts
             </p>
             <div className="flex flex-col gap-4 text-1xl md:text-2xl font-light">
               <p>
@@ -25,14 +24,14 @@ const Live = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center md:flex-row gap-10 bg-primary h-full w-full">
-        <div className="flex flex-col-reverse md:flex-row-reverse gap-10 md:gap-20 items-center justify-center">
-          <div className="w-full">
-            <img src={image5} className="h-[700px] w-[1100px] object-cover" />
+      <div className="flex items-center justify-center md:flex-row bg-primary lg:bg-white xl:bg-primary md:h-screen w-full lg:w-[52.1%] xl:w-full">
+        <div className="flex flex-col md:flex-col-reverse  gap-2 md:gap-none lg:gap-2 xl:gap-none lg:flex-col xl:flex-row-reverse items-center justify-center w-full">
+          <div className="xl:w-full">
+            <img src={image5} className="h-[310px] lg:w-[200px] lg:h-[190px] xl:h-[700px] w-full 2xl:w-[1150px] xl:w-[800px] object-cover rounded-md 2xl:rounded-none" />
           </div>
-          <div className="flex items-start bg-primary gap-10  md:gap-20 flex-col md:w-[40%] h-full">
-              <img src={image6} className="h-[310px] w-[520px] object-cover" />
-              <img src={image7} className="h-[310px] w-[520px] object-cover" />
+          <div className="flex items-center bg-primary lg:bg-white xl:bg-primary gap-2 md:gap-none lg:gap-2 xl:gap-10 justify-center flex-col xl:w-[50%] h-full">
+              <img src={image6} className="h-[310px] w-[380px] lg:w-[200px] lg:h-[190px] xl:h-[330px] xl:w-[300px] 2xl:w-[520px] rounded-md 2xl:rounded-none object-cover" />
+              <img src={image7} className="h-[310px] w-[380px] lg:w-[200px] lg:h-[190px] xl:h-[330px] xl:w-[300px] 2xl:w-[520px] rounded-md 2xl:rounded-none object-cover" />
           </div>
         </div>
       </div>

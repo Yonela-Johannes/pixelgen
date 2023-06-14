@@ -10,7 +10,7 @@ import End from "./pages/End";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Landing />
       <About />
       <StudioPortraits />

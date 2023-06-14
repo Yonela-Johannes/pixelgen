@@ -3,12 +3,11 @@ import image2 from '../assets/image2.png';
 
 const OutdoorPortraits = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-primary min-h-screen md:h-screen">
-      <div className="flex flex-col text-white items-center h-full justify-end md:mb-60 w-full md:w-[50%]">
-        <div className="p-8 md:p-0 mt-10">
-          <div className="flex items-center flex-col mb- md:w-[480px]">
-          <p className="relative text-4xl md:text-8xl mb-3">Outdoor Portraits
-            <div className="absolute h-[4px] md:h-[8px] w-[55px] md:w-[170px] top-3 -left-6 md:top-4 md:-left-16 bg-white -rotate-45 border border-primary rounded-full"></div>
+    <div className="flex flex-col lg:flex-row-reverse 2xl:flex-row items-center bg-white min-h-screen 2xl:h-screen">
+      <div className="flex flex-col 2xl:flex-col items-center h-full justify-end w-full lg:w-full 2xl:w-[50%] 2xl:bg-primary">
+        <div className="p-8 md:p-0 mt-10 2xl:text-white">
+          <div className="flex md:items-center flex-col mb-8 lg:w-[600px] 2xl:w-[480px]">
+          <p className="w-full text-4xl md:text-1xl lg:text-3xl xl:text-5xl 2xl:text-8xl mb-3">Outdoor Portraits
             </p>
             <div className="flex flex-col gap-4 text-1xl md:text-2xl font-light">
               <p>
@@ -27,13 +26,13 @@ const OutdoorPortraits = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center md:flex-row gap-10 bg-white h-full w-full">
-        <div className="flex flex-col md:flex-row md:gap-10 items-center justify-center">
+      <div className="flex items-center justify-center md:flex-row gap-10 bg-white lg:bg-primary 2xl:bg-white h-full w-full lg:h-screen lg:w-[50%] 2xl:w-full ">
+        <div className="flex flex-col lg:flex-col 2xl:flex-row md:gap-10 items-center justify-center">
           <div>
-            <img src={image1} className="h-full md:h-[840px] w-full object-cover" />
+            <img src={image1} className="h-full w-full  lg:h-[190px]  lg:w-[200px]  xl:w-[300px]  xl:h-[300px] lg:rounded-md 2xl:rounded-none md:h-[600px] 2xl:h-[800px] 2xl:w-[450px] object-cover" />
           </div>
           <div>
-              <img src={image2} className="h-full md:h-[840px] w-full object-cover" />
+              <img src={image2} className="h-full w-full  lg:h-[190px]  lg:w-[200px]  xl:w-[300px]  xl:h-[300px] lg:rounded-md 2xl:rounded-none md:h-[600px] 2xl:h-[800px] 2xl:w-[450px] object-cover" />
           </div>
         </div>
       </div>
