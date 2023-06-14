@@ -7,9 +7,9 @@ import five from '../assets/five.jpg';
 const Nightlife = () => {
   return (
     <div className="flex gap-10 flex-col-reverse items-center bg-primary min-h-screen">
-      <div className="flex justify-center gap-10">
-        <img src={four} className="h-[350px] w-[520px] object-cover" />
-          <div className="flex flex-col justify-center w-[520px] bg-white h-[460px]">
+      <div className="flex flex-col md:flex-row justify-center gap-10">
+        <img src={four} className="h-full md:h-[350px] w-[300px] md:w-[520px] object-cover" />
+          <div className="flex flex-col justify-center w-[300px] md:w-[520px] bg-white h-[460px]">
             <div className="flex flex-col self-center">
               <p className="relative text-6xl mb-3">Nightlife <br />
               Photography
@@ -27,12 +27,12 @@ const Nightlife = () => {
               </div>
             </div>
           </div>
-          <img src={five} className="h-[350px] w-[520px] object-cover" />
+          <img src={five} className="h-full md:h-[350px] w-[300px] md:w-[520px] object-cover" />
       </div>
-      <div className="flex gap-10 items-center justify-center bg-primary w-full">
-        <img src={one} className="h-[350px] w-[520px] object-cover" />
-        <img src={two} className="h-[350px] w-[520px] object-cover" />
-        <img src={three} className="h-[350px] w-[520px] object-cover" />
+      <div className="flex flex-col md:flex-row gap-10 items-center justify-center bg-primary w-full">
+        <img src={one} className="h-full md:h-[350px] w-[300px] md:w-[520px] object-cover" />
+        <img src={two} className="h-full md:h-[350px] w-[300px] md:w-[520px] object-cover" />
+        <img src={three} className="h-full md:h-[350px] w-[300px] md:w-[520px] object-cover" />
       </div>
     </div>
   )

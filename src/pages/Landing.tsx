@@ -1,8 +1,8 @@
  import nkosinati from '../assets/nkosinatii.png'
 const Landing = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-white h-screen">
-      <div className="flex flex-col items-center h-full justify-end w-[35%] md:mb-60">
+    <div className="flex flex-col md:flex-row items-center bg-white min-h-screen md:h-screen">
+      <div className="flex flex-col items-center h-full justify-end w-[50%] md:mb-60">
         <div className="p-10 mt-10">
           <div className="mb-8">
             <p className="relative font-semibold text-4xl mb-3">Nkosinathi Sopangisa

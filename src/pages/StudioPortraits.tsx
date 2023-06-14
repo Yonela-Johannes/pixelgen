@@ -5,8 +5,8 @@ import image3 from '../assets/image3.png'
 
 const StudioPortraits = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-white min-h-screen h-screen">
-      <div className="flex flex-col items-center h-full justify-end md:mb-60 w-[35%]">
+    <div className="flex flex-col-reverse md:flex-row items-center bg-white min-h-screen md:h-screen">
+      <div className="flex flex-col items-center h-full justify-end md:mb-60 w-full md:w-[50%]">
         <div className="p-10 mt-10">
           <div className="mb-8">
             <p className="relative text-6xl mb-3">Studio  Portraits
@@ -27,10 +27,10 @@ const StudioPortraits = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center p-20 gap-10 justify-center bg-primary h-full w-full">
-        <div className="flex gap-10 items-center justify-center">
-          <div className=" bg-gray-200">
-            <img src={unnamed} className="h-[840px] w-full object-contain" />
+      <div className="flex flex-col items-center md:flex-row md:p-20 gap-10 justify-center bg-primary h-full w-full">
+        <div className="flex flex-col md:flex-row gap-10 items-center justify-center">
+          <div className="">
+            <img src={unnamed} className="h-full md:h-[840px] w-full object-contain" />
           </div>
           <div className="flex gap-10 flex-col">
               <img src={bravo} className="h-[400px] w-[320px] object-cover" />

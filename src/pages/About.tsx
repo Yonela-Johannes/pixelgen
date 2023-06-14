@@ -2,7 +2,7 @@ import nkosinati from '../assets/nkosinati.png'
 
 const About = () => {
   return (
-    <div className="relative flex flex-col-reverse md:flex-row-reverse items-center bg-white min-h-screen">
+    <div className="md:relative flex flex-col-reverse md:flex-row-reverse items-center bg-white min-h-screen md:h-screen">
       <div className="flex flex-col items-center h-full justify-end md:mb-60 w-full">
         <div className="p-10 mt-10">
           <div className="mb-8">
@@ -28,9 +28,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center bg-primary h-full w-[35%] ">
-        <div className="md:absolute bottom-40 left-[220px]">
-          <img src={nkosinati} className="h-[500px] w-[500px] md:rounded-full w-full object-cover" />
+      <div className="flex items-center justify-center bg-primary h-full w-full md:w-[50%]">
+        <div className="md:absolute bottom-40 left-[360px]">
+          <img src={nkosinati} className="h-[500px] md:w-[500px] w-full md:rounded-full object-cover" />
         </div>
       </div>
     </div>

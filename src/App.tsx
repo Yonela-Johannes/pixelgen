@@ -7,6 +7,7 @@ import Live from "./pages/Live";
 import Nightlife from "./pages/Nightlife";
 import Contact from "./pages/Contact";
 import Hero from "./pages/Hero";
+import End from "./pages/End";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Nightlife />
       <Contact />
       <Hero />
+      <End />
     </div>
   )
 }

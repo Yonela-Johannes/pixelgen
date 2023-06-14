@@ -8,8 +8,8 @@ import image7 from '../assets/image7.png'
 
 const Live = () => {
   return (
-    <div className="relative flex flex-col py-40 md:flex-row-reverse items-center bg-primary min-h-screen h-screen">
-      <div className="absolute bottom-0 right-0 flex flex-col self-end items-end justify-end rounded-tl-[150px] px-10 py-20 bg-white w-[35%]">
+    <div className="md:relative flex flex-col py-40 md:flex-row-reverse items-center bg-primary min-h-screen md:h-screen">
+      <div className="md:absolute bottom-0 right-0 flex flex-col self-end items-end justify-end md:rounded-tl-[150px] px-10 py-20 bg-white w-full md:w-[600px]">
         <div className="">
           <div className="mb-8">
             <p className="relative text-6xl mb-3">Live <br />
@@ -29,12 +29,12 @@ const Live = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center bg-primary min-h-full h-screen w-full">
-        <div className="flex flex-row-reverse gap-20 items-center justify-center">
-          <div className=" bg-gray-200 w-full">
+      <div className="flex items-center justify-center bg-primary min-h-full min-h-screen md:h-screen w-full">
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-10 md:gap-20 items-center justify-center">
+          <div className="w-full">
             <img src={image5} className="h-[700px] w-[1100px] object-cover" />
           </div>
-          <div className="flex items-start bg-primary  gap-20 flex-col w-[40%] h-full">
+          <div className="flex items-start bg-primary gap-10  md:gap-20 flex-col md:w-[40%] h-full">
               <img src={image6} className="h-[310px] w-[520px] object-cover" />
               <img src={image7} className="h-[310px] w-[520px] object-cover" />
           </div>
