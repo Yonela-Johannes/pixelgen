@@ -3,11 +3,17 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'font-family': ["acumin-pro", "sans-serif"],
+      },
       colors: {
         primary: '#1A1A1A',
         light: '#212121',
         black: "#000000",
         white: "#FFFFFF",
+      },
+      rotate: {
+        '50': '50deg',
       },
       animation: {
         slideup: 'slideup 1s ease-in-out',

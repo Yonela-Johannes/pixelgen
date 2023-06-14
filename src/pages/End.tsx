@@ -1,10 +1,10 @@
 const End = () => {
   return (
     <div className="md:relative flex flex-col md:flex-row items-end justify-end md:items-center text-white bg-primary h-screen w-full">
-      <div className="md:absolute right-56 bottom-60">
+      <div className="p-10 md:p-0 md:absolute right-56 bottom-60">
         <div className="bg-white w-[2px] h-[30px]"></div>
           <div className="">
-            <p className='text-6xl'>
+            <p className='text-2xl md:text-6xl'>
               Thank You
             </p>
           </div>

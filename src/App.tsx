@@ -1,5 +1,4 @@
 import Landing from "./pages/Landing"
-import './App.css';
 import About from "./pages/About";
 import StudioPortraits from "./pages/StudioPortraits";
 import OutdoorPortraits from "./pages/OutdoorPortraits";
