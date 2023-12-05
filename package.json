@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yonela-johannes.github.io/PixelGen/",
   "scripts": {
     "dev": "vite",
     "start": "vite --host",
