@@ -1,16 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: {
+  relative: true,
+  files: ['./src/*.{html,js}', './index.html', './src/**/*.{vue,js,ts,jsx,tsx}', "./node_modules/tw-elements/dist/js/**/*.js"],
+ },
+  plugins: [""],
   theme: {
     extend: {
+      zIndex: {
+        '60': '60',
+        '90': '90',
+        '100': '100',
+        '99999': '99999'
+      },
       fontFamily: {
-        'font-family': ["acumin-pro", "sans-serif"],
+        'acumin': ['Acumin Variable Concept'],
+        'open-sans' : ['Open Sans', 'sans-serif'],
+        'rock': ['Rock Salt', 'cursive']
       },
       colors: {
         primary: '#1A1A1A',
         light: '#212121',
         black: "#000000",
         white: "#FFFFFF",
+        bg_primary: '#FF9400'
       },
       rotate: {
         '50': '50deg',

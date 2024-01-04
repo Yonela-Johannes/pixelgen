@@ -6,13 +6,13 @@ const End = () => {
         <img src={nkosinati} className="h-full w-full object-contain" />
       </div>
       <div className="p-10 md:p-0 md:absolute right-56 bottom-60">
-        <div className="bg-white w-[2px] h-[30px]"></div>
-          <div className="">
+        <div data-aos="zoom-out-up" data-aos-duration="1000" className="bg-white w-[2px] h-[30px]"></div>
+          <div data-aos="zoom-out-up" data-aos-duration="2000" className="">
             <p className='text-2xl md:text-6xl'>
               Thank You
             </p>
           </div>
-        <div className="bg-white w-[2px] h-[60px] mt-4"></div>
+        <div data-aos="zoom-out-up" data-aos-duration="3000" className="bg-white w-[2px] h-[60px] mt-4"></div>
       </div>
     </div>
   )
