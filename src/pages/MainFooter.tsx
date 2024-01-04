@@ -22,7 +22,7 @@ const MainFooter = () => {
           >
             Made with &hearts; by{" "}
             <a className="text-orange-400"
-              href="http://devdreaming.com"
+              href="https://github.com/Yonela-Johannes"
               target={"_blank"}
               rel="dofollow noreferrer"
             >
