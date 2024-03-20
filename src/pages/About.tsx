@@ -1,29 +1,12 @@
 import nkosinati from '../assets/nkosinati.png'
-import { motion} from 'framer-motion';
-import { useRef } from 'react'
-
-const variants = {
-  initial: {
-    y: -800,
-    opacity: 0,
-  },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      staggerChildren: 0.1,
-    },
-  },
-};
 
 const About = () => {
-  const ref = useRef();
+
   return (
     <div className="md:relative flex flex-col-reverse md:flex-row-reverse items-center bg-white min-h-screen md:h-screen" id="about">
       <div className="flex flex-col items-center h-full justify-end w-full">
         <div className="p-8 mt-10 text-primary">
-          <motion.div ref={ref} variants={variants} initial="initial" whileInView="animate" className="mb-8">
+          <div className="mb-8">
             <p className="font-acumin text-4xl md:text-1xl lg:text-5xl 2xl:text-8xl mb-3 text-primary">About Me
             </p>
             <div className="flex flex-col gap-4 text-1xl md:text-4xl font-light md:w-[600px] ">
@@ -42,7 +25,7 @@ const About = () => {
                 In the following slides you will see some of my work, feel free to contact me.
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-center md:bg-primary h-full w-full md:w-[50%]">

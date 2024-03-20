@@ -13,7 +13,7 @@ function Gallery(){
   return (
     <div className="gallery md:flex items-center justify-center md:mt-20" id="gallery">
       <div className="">
-        <ul data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="linear" className="gallery-list">
+        <div className="gallery-list">
 
             <li className="gallery-item" data-reveal>
 
@@ -98,7 +98,7 @@ function Gallery(){
               </div>
 
             </li>
-        </ul>
+        </div>
         <img src={shape} loading="lazy" alt="" className="shape w-[100px] h-[70px]" />
 
       </div>

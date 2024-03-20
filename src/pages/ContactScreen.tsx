@@ -1,13 +1,10 @@
-import { AiFillFacebook , AiFillInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
-import Contact from '../components/contact/Contact';
-
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 const ContactScreen = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row items-center bg-primary " id='contact'>
         <div className="bg-primary w-full md:h-full">
-          <Contact />
         </div>
         <div className="py-20 p-8 md:p-0 flex flex-col items-center h-full w-full justify-end lg:pb-20 2xl:pb-60 bg-white">
           <div className="flex text-primary flex-col items-center justify-around w-full lg:w-[90%] 2xl:w-[70%] ">

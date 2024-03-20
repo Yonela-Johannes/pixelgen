@@ -6,8 +6,7 @@ const OutdoorPortraits = () => {
     <div className="flex flex-col lg:flex-row-reverse 2xl:flex-row items-center bg-primary min-h-screen 2xl:h-screen">
       <div className="flex flex-col 2xl:flex-col items-center h-full justify-end w-full lg:w-full 2xl:w-[50%] 2xl:bg-primary">
         <div className="p-8 md:p-0 mt-10 2xl:text-white">
-          <div data-aos="fade-up"
-            data-aos-duration="3000" className="flex md:items-center flex-col mb-8 lg:w-[600px] 2xl:w-[480px]">
+          <div className="flex md:items-center flex-col mb-8 lg:w-[600px] 2xl:w-[480px]">
             <p className="font-acumin w-full text-4xl md:text-1xl lg:text-3xl xl:text-5xl 2xl:text-8xl mb-3">Outdoor Portraits
             </p>
             <div className="flex flex-col gap-4 text-1xl md:text-4xl font-light">

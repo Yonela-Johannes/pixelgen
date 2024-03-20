@@ -14,7 +14,6 @@ import { AnimatePresence } from "framer-motion";
 import Loader from "./components/Loader";
 import MainFooter from './pages/MainFooter'
 import ImageGrid from "./pages/ImageGrid";
-import TextSection from "./pages/TextSection";
 import Layout from "./pages/Layout";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -62,7 +61,6 @@ function App() {
               <Landing />
               <Gallery />
               <About />
-              <TextSection />
               <StudioPortraits />
               <ImageGrid />
               <OutdoorPortraits />

@@ -6,9 +6,7 @@ const Landing = () => {
   return (
     <div className="flex flex-col sm:flex-row items-center bg-white w-screen min-h-screen h-screen sm:h-screen text-primary">
       <div className="flex flex-col items-center h-full justify-end w-full md:w-[50%] md:mb-60">
-        <div data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine" className="p-10 mt-10">
+        <div className="p-10 mt-10">
           <div className="mb-8">
             <p className="font-acumin font-semibold text-3xl md:text-1xl lg:text-3xl xl:text-5xl mb-3 text-primary">Nkosinathi Sopangisa
             </p>

@@ -9,12 +9,10 @@ const StudioPortraits = () => {
       <div className="flex flex-col items-center h-full justify-end w-full lg:w-full xl:w-[50%]">
         <div className="p-8 md:p-0 mt-10">
           <div className="flex md:items-center flex-col mb-8 lg:w-[600px] xl:w-[360px] 2xl:w-[480px]">
-            <p data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom" className="font-acumin w-full text-4xl md:text-1xl lg:text-3xl xl:text-5xl 2xl:text-8xl mb-3">Studio Portraits
+            <p className="font-acumin w-full text-4xl md:text-1xl lg:text-3xl xl:text-5xl 2xl:text-8xl mb-3">Studio Portraits
             </p>
             <div className="flex flex-col gap-4 text-1xl md:text-4xl font-light">
-              <p data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000">
+              <p>
                 Studio, oh how I enjoy working in the studio, because
                 I can dictate and control what I work with in order to
                 yield the best result even before editing. The best
@@ -35,12 +33,8 @@ const StudioPortraits = () => {
             <img src={unnamed} className="h-full lg:w-[200px] lg:h-[190px] xl:w-full xl:h-[650px] 2xl:h-[840px] w-full object-cover rounded-md 2xl:rounded-none" />
           </div>
           <div className="flex gap-10 lg:gap-2 xl:gap-10 flex-col">
-            <img data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000" src={bravo} className="2xl:h-[400px] lg:w-[200px] lg:h-[190px] xl:h-[300px] 2xl:w-[320px] rounded-md 2xl:rounded-none object-cover" />
-            <img data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000" src={image3} className="2xl:h-[400px] lg:w-[200px] lg:h-[190px] xl:h-[300px] 2xl:w-[320px] rounded-md 2xl:rounded-none object-cover" />
+            <img src={bravo} className="2xl:h-[400px] lg:w-[200px] lg:h-[190px] xl:h-[300px] 2xl:w-[320px] rounded-md 2xl:rounded-none object-cover" />
+            <img src={image3} className="2xl:h-[400px] lg:w-[200px] lg:h-[190px] xl:h-[300px] 2xl:w-[320px] rounded-md 2xl:rounded-none object-cover" />
           </div>
         </div>
       </div>

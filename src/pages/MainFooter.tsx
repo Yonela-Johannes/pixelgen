@@ -15,20 +15,6 @@ const MainFooter = () => {
           >
             &copy; 2023. All Rights Reserved.
           </span>
-          <span className="flex gap-2"
-            data-scroll
-            data-scroll-speed="-2"
-            data-scroll-direction="horizontal"
-          >
-            Made with &hearts; by{" "}
-            <a className="text-orange-400"
-              href="https://github.com/Yonela-Johannes"
-              target={"_blank"}
-              rel="dofollow noreferrer"
-            >
-              Yonela Johannes
-            </a>
-          </span>
         </footer>
       </>
       <div className="footer-bottom">
